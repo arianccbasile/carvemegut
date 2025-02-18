@@ -1,3 +1,4 @@
+![CarveMe](logo.png)
 # CarveMeGut
 
 CarveMeGut is a Python package designed for metabolic model reconstruction 
