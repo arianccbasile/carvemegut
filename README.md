@@ -2,7 +2,7 @@
 
 CarveMeGut is a Python package designed for metabolic model reconstruction 
 and curation, particularly tailored for gut microbiome studies. It 
-automates the process of extracting, curating, and refining genome-scale 
+automates the process of drafting genome-scale 
 metabolic models using various datasets and computational methods.
 
 ## Features
@@ -19,14 +19,18 @@ CarveMeGut requires Python 3.7 or higher. Install it using pip:
 ```sh
 pip install carvemegut
 ```
+Test the installation with:
+```sh
+carvemegut-carve --help
+```
 
 Alternatively, you can install the latest development version from GitHub:
-
 ```sh
 git clone https://github.com/yourusername/carvemegut.git
 cd carvemegut
 pip install .
 ```
+
 
 ## Usage
 
@@ -36,24 +40,12 @@ CarveMeGut provides a command-line interface (CLI) for ease of use. After
 installation, you can use:
 
 ```sh
-carvemegut build-universe --input genome.fasta --output model.xml
+carvemegut-carve --input genome.fasta --output model.xml
 ```
 
-For a list of available commands:
-
+For a list of available options:
 ```sh
-carvemegut --help
-```
-
-### Python API
-
-You can also use CarveMeGut as a Python module:
-
-```python
-import carvemegut
-
-model = carvemegut.build_universe("genome.fasta")
-model.save("model.xml")
+carvemegut-carve --help
 ```
 
 ## Configuration
@@ -68,15 +60,7 @@ including:
 - BiGG Models
 - MetaNetX
 - KEGG
-
-## Contributing
-
-We welcome contributions! To contribute:
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature-branch`)
-3. Commit changes (`git commit -m "Add new feature"`)
-4. Push to the branch (`git push origin feature-branch`)
-5. Open a Pull Request
+- 
 
 ## License
 
