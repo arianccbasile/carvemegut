@@ -23,7 +23,7 @@ Test the installation with:
 ```sh
 carvemegut-carve --help
 ```
-The database is automatically pulled from [zenodo](https://zenodo.org/records/14882984) and placed in the correct repository for the software. 
+The database is automatically pulled from [zenodo](https://zenodo.org/records/14882984) and placed in the correct repository during the installation. 
 
 
 Alternatively, you can install the latest development version from GitHub:
