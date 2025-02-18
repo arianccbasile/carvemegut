@@ -1,0 +1,43 @@
+[input]
+biomass_library = data/input/biomass_db.tsv
+media_library = data/input/media_db.tsv
+metabolomics = data/input/metabolomics_park2016.csv
+refseq = data/input/refseq_release_201.tsv.gz
+mnx_compounds = data/input/mnx_compounds.tsv
+bigg_models = data/input/bigg_models.tsv
+unbalanced_metabolites = data/input/unbalanced_metabolites.csv
+manually_curated = data/input/manually_curated.tsv
+
+[generated]
+folder = data/generated/
+#bigg_gprs = data/generated/bigg_transpor_unipac90_agora_gpr.csv.gz
+#bigg_gprs = data/generated/bigg_agora_gprs.csv.gz
+bigg_gprs = data/generated/bigg_gprs.csv.gz
+model_specific_data = data/generated/model_specific_data.csv.gz
+gene_annotations = data/generated/gene_annotations.tsv.gz
+bigg_universe = data/generated/bigg_universe.xml.gz
+bigg_annotated = data/generated/bigg_annotated.xml.gz
+default_universe = data/generated/universe_bacteria.xml.gz
+#fasta_file = data/generated/bigg_proteins.faa
+fasta_file = data/generated/bigg_agora_transporters_unipac90.faa
+#diamond_db = data/generated/bigg_transpor_unipac90_agora_MelTram_ch80.dmnd
+#diamond_db = data/generated/bigg_agora_transporters_unipac90.dmnd
+diamond_db = data/generated/bigg_proteins.dmnd
+
+[solver]
+default_solver = cplex
+feas_tol = 1e-9
+opt_tol = 1e-9
+int_feas_tol = 1e-5
+
+[thermodynamics]
+concentration_min = 1e-5
+concentration_max = 1e-2
+measured_fold_change = 10
+
+[sbml]
+default_flavor = bigg
+
+[gapfill]
+max_uptake = 100
+

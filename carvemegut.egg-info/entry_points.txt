@@ -1,0 +1,5 @@
+[console_scripts]
+carvemegut-build-universe = carvemegut.cli.build_universe:main
+carvemegut-carve = carvemegut.cli.carve:main
+carvemegut-curate = carvemegut.cli.curate_universe:main
+carvemegut-gapfill = carvemegut.cli.gapfill:main
