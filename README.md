@@ -62,6 +62,6 @@ CarveMeGut is released under the MIT License.
 
 ## Contact
 For questions or issues, please open an issue on 
-[GitHub](https://github.com/yourusername/carvemegut/issues).
+[GitHub](https://github.com/arianccbasile/carvemegut/issues).
 
-
+📢 **Stay tuned for the upcoming publication!**
