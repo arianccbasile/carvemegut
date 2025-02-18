@@ -1,6 +1,7 @@
 <p align="center">
   <img src="logo.png" alt="CarveMeGut Logo" width="200"/>
 </p>
+
 # CarveMeGut
 
 CarveMeGut is a Python package designed for metabolic model reconstruction 
