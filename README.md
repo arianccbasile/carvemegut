@@ -23,6 +23,8 @@ Test the installation with:
 ```sh
 carvemegut-carve --help
 ```
+The database is automatically pulled from [zenodo](https://zenodo.org/records/14882984) and placed in the correct repository for the software. 
+
 
 Alternatively, you can install the latest development version from GitHub:
 ```sh
@@ -53,14 +55,6 @@ carvemegut-carve --help
 CarveMeGut allows customization through a configuration file 
 (`config.cfg`). This file contains parameters for model reconstruction, 
 database paths, and computational settings.
-
-## Data Sources
-CarveMeGut integrates with multiple external metabolic databases, 
-including:
-- BiGG Models
-- MetaNetX
-- KEGG
-- 
 
 ## License
 
