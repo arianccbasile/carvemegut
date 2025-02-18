@@ -1,6 +1,6 @@
-#<p align="center">
- # <img src="logo.png" alt="CarveMeGut Logo" width="200"/>
-#</p>
+<p align="center">
+  <img src="Picture 1.png" alt="CarveMeGut Logo" width="200"/>
+</p>
 
 # CarveMeGut
 
