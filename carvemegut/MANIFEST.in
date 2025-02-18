@@ -1,0 +1,4 @@
+include README.md
+include LICENSE
+include config.cfg
+exclude carvemegut/data*
