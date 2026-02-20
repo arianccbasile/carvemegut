@@ -2,9 +2,9 @@
   <img src="Picture 1.png" alt="CarveMeGut Logo" width="200"/>
 </p>
 
-# CarveMeGut
+# CarveMe-GutMicrobes
 
-CarveMeGut is a Python package designed for metabolic model reconstruction 
+CarveMe-GutMicrobes is a Python package designed for metabolic model reconstruction 
 and curation, particularly tailored for gut microbiome studies. It 
 automates the process of drafting genome-scale 
 metabolic models using various datasets and computational methods.
@@ -13,12 +13,11 @@ metabolic models using various datasets and computational methods.
 - Automated metabolic model reconstruction from genome sequences
 - Integration with public metabolic databases
 - Gap-filling for incomplete metabolic networks
-- Support for various file formats (FASTA, SBML, etc.)
 - CLI tools for streamlined workflows
 
 ## Installation
 
-CarveMeGut requires Python 3.7 or higher. Install it using pip:
+CarveMe-GutMicrobes requires Python 3.7 or higher. Install it using pip:
 
 ```sh
 pip install carvemegut
@@ -42,7 +41,7 @@ pip install .
 
 ### CLI Usage
 
-CarveMeGut provides a command-line interface (CLI) for ease of use. After 
+CarveMe-GutMicrobes provides a command-line interface (CLI) for ease of use. After 
 installation, you can use:
 
 ```sh
@@ -56,13 +55,13 @@ carvemegut-carve --help
 
 ## Configuration
 
-CarveMeGut allows customization through a configuration file 
+CarveMe-GutMicrobes allows customization through a configuration file 
 (`config.cfg`). This file contains parameters for model reconstruction, 
 database paths, and computational settings.
 
 ## License
 
-CarveMeGut is released under the MIT License.
+CarveMe-GutMicrobes is released under the MIT License.
 
 ## Contact
 For questions or issues, please open an issue on 
