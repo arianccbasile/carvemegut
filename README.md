@@ -52,6 +52,9 @@ For a list of available options:
 ```sh
 carvemegut-carve --help
 ```
+## Tutorials
+Need a helping hand? Additional information and tutorials can be found at this <a href="https://github.com/arianccbasile/CarveMe-GutMicrobes_paper">link</a>.
+
 
 ## Configuration
 
