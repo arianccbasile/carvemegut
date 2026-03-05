@@ -7,7 +7,7 @@ with open('README.md') as readme_file:
     readme = readme_file.read()
 
 requirements = [
-    "reframed>=1.5.3",
+    "reframed<1.6.0",
     "pandas>=1.0",
     "biopython"
 ]
@@ -23,13 +23,13 @@ class CustomInstallCommand(install):
 
 setup(
     name="carvemegut",  # Package name
-    version="0.3.9",  # Update this with each release
+    version="0.4.0",  # Update this with each release
     author="Arianna Basile",
     author_email="basilearianna1@gmail.com",
     description="A Python package for metabolic modeling",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/carvemegut",  # Replace with your repo URL
+    url="https://github.com/arianccbasile/carvemegut",  # Replace with your repo URL
     packages=find_packages(),
     include_package_data=False,
     package_data={
